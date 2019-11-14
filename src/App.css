@@ -11,12 +11,12 @@ footer {
   background-color: #4a90e2;
   opacity: 0.9;
 }
-header a,
+#basic-navbar-nav > div > a,
 footer a {
-  color: white;
+  color: white; 
 }
 
-a:hover {
+#basic-navbar-nav > div > a:hover {
   color: #09121c;
 }
 .logoHeader {
@@ -67,7 +67,6 @@ a:hover {
   max-width: 40vw;
   border-radius: 2px;
   object-fit: cover;
-  filter: grayscale(70%);
 }
 
 .imgPortafolio {
