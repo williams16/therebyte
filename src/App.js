@@ -8,6 +8,7 @@ import Home from './componets/home/Home'
 import Habilidades from './componets/habilidades/Habilidades'
 import Experiencia from './componets/experiencia/Experiencia'
 import About from './componets/about/About'
+import ContactoFrm from './componets/contacto/ContactoFrm'
 
 import './App.css';
 
@@ -19,6 +20,7 @@ const App =() => {
       <Route exact path="/Habilidades" component={Habilidades}/>
       <Route exact path="/Experiencia" component={Experiencia}/>
       <Route exact path="/About" component={About}/>
+      <Route exact path="/Contacto" component={ContactoFrm}/>
       <Footer/>
     </Router>
   );
